@@ -1,0 +1,65 @@
+/* header styles */
+.header-wraper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 76px;
+}
+.ul-item {
+    display: flex;
+}
+.header-wraper {
+    background-color: lightcoral;
+    padding: 30px;
+}
+.burger-bar {
+    display: none;
+}
+
+/* 1024 768 480 320px */
+.wraper-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+}
+
+.container {
+    max-width:1170px;
+    width: 90%;
+    background-color: red;
+    margin:0 auto;
+    height: 300px;
+}
+
+/* figma practice responsive */
+.container-block {
+    max-width: 1176px;
+    width:90%;
+    margin:0 auto;
+}
+.text-block {
+    max-width: 404px;
+    width: 100%;
+    margin:0 auto;
+    text-align: center;
+}
+.flex-block {
+    display: flex;
+    column-gap: 47px;
+}
+.block {
+    width:279px;
+    height: 299px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.middle-block {
+    width: 202px;
+}

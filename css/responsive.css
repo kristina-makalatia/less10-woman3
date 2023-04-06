@@ -1,0 +1,85 @@
+/* pracitce #1 */
+/* @media (max-width: 850px) {
+    .box {
+        width: 100px;
+        background-color: yellow;
+    }
+    .box:nth-child(4) {
+        display: none;
+    }
+} */
+
+/* practice#2 */
+/* @media (max-width: 1024px) {
+    .wraper-box {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .box {
+        margin-bottom: 30px;
+    }
+} */
+
+/* practice#3 */
+/* @media (max-width:1024px) {
+    .wraper-box {
+        gap:30px;
+    }
+}
+@media (max-width: 430px) {
+    .wraper-box {
+        justify-content: center;
+    }
+} */
+
+
+
+
+
+/* responsive practice figma file */
+@media (max-width: 1024px) {
+    .block {
+        width: 47%; 
+    }
+    .flex-block {
+        flex-wrap: wrap;
+        row-gap: 30px;
+        justify-content: space-between;
+        column-gap: 0;
+    }
+}
+
+@media (max-width:900px) {
+    .box {
+        width:45%;
+    }
+    .wraper-box {
+        row-gap:30px;
+    }
+}
+
+@media (max-width:768px) {
+    /* .navigation {
+        display: none;
+    } */
+    .burger-bar {
+        display: block;
+        font-size: 25px;
+        color:#fff;
+    }
+    .nav-li-item:not(.active){
+        display: none;
+    }
+}
+
+@media (max-width:480px) {
+    .box {
+        width:80%;
+    }
+    .wraper-box {
+        justify-content: center;
+    }
+    .block {
+        width: 100%;
+    }
+}
